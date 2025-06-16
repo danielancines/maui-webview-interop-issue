@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="maui_webview_interop_issue.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Button
+                x:Name="OpenWindowButton"
+                Text="New Window Non Interop" 
+                Clicked="OpenWindowButton_Clicked"
+                HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="OpenChildWindowButton"
+                Text="Click me" 
+                Clicked="OpenChildWindowButton_Clicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
