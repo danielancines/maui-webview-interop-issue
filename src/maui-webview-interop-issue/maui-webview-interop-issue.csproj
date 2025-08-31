@@ -59,6 +59,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<!--<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.250702007-experimental4" />-->
 		<PackageReference Include="Microsoft.Maui.Controls" Version="9.0.100" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.8" />
 	</ItemGroup>
